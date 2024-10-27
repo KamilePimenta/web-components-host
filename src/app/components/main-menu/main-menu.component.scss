@@ -1,0 +1,14 @@
+.kms-navbar {
+  .kms-navbar__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .kms-navbar__list-link {
+    display: block;
+    color: currentColor;
+    text-decoration: none;
+  }
+}

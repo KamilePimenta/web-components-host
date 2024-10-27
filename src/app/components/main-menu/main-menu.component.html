@@ -1,0 +1,13 @@
+<nav class="kms-navbar">
+  <div class="kms-navbar__content">
+    <ul class="kms-navbar__list">
+      <li *ngFor="let route of routes" class="kms-navbar__list-item">
+        <a
+          class="kms-navbar__list-link"
+          [routerLink]="[route.path]"
+          routerLinkActive="kms-navbar__list-link--active"
+        >{{ route.path }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
